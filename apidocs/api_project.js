@@ -1,0 +1,1 @@
+define({  "name": "example",  "version": "0.1.0",  "description": "XXXAPI文档",  "title": "XXXAPI文档",  "url": "https://127.0.0.1:5000/wwwapi/v1",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-12-12T06:03:46.242Z",    "url": "http://apidocjs.com",    "version": "0.17.6"  }});

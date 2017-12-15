@@ -1,0 +1,52 @@
+# 平滑关机选项
+smoothShutDownSwitchName: 'shutDownService'
+
+# 外部站配置
+externalSite:
+  baseURL: '<baseURL>'
+
+# 内部站配置
+internalSite:
+  baseURL: '<baseURL>'
+
+
+AES:
+  key: '<key>'
+  iv : '<iv>'
+
+webServer:
+  secret: '<secret>'
+  str_format: '<str_format>'
+  token_secret: '<token_secret>'
+
+# 数据库配置
+mysql:
+  host              : '<host>'
+  port              : <port>
+  user              : '<user>'
+  password          : '<password>'
+  database          : '<dbName>'
+  connectionLimit   : 5       # 连接池大小
+  acquireTimeout    : 30000   # 超时时间
+  multipleStatements: true    # 允许多条SQL语句
+  timezone          : '+0:00' # 时区
+
+# Redis配置
+redis:
+  host    : '<ip>'
+  port    : <port>
+  db      : <number>
+  password: <password>
+
+# 邮件服务器
+mailServer:
+  retry: 5
+  retryTimeout: 1
+  senderName:
+    zh: '中文Demo名'
+    en: '英文Demo名'
+  smtp:
+    host    : '<ip>'
+    port    : <port>
+    user    : '<user>'
+    password: '<password>'
